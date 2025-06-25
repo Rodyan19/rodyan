@@ -2,7 +2,7 @@ import os
 import telebot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-TOKEN = os.getenv("7899325143:AAFST4wr1ZU52fZyg74mksw2tU4e5iyHpcQ")
+TOKEN = os.getenv("TOKEN")
 bot = telebot.TeleBot(TOKEN)
 
 tasks = [
