@@ -51,4 +51,5 @@ def next_task(message):
     else:
         bot.send_message(user_id, "🥵 Все задания выполнены. Жду тебя...")
 
-bot.polling(none_stop=True, interval=0, timeout=20)
+bot.polling(none_stop=True, interval=1, timeout=60)
+
